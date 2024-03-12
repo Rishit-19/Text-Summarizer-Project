@@ -21,7 +21,7 @@ list_of_files = [
     "app.py",
     "main.py",
     "setup.py",
-    "requirements.py",
+    "requirements.txt",
     "params.yaml",
     "config/config.yaml",
     "Dockerfile",
@@ -42,7 +42,7 @@ for file in list_of_files:
     else:
         logging.info(f"Directory {filedir} already exists")
     
-    if (not os.path.exists(file_path)) or (os.path.getsize(file_path)):
+    if (not os.path.exists(file_path)) or (os.path.getsize(file_path)==0):
         with open(file_path, "w") as f:
             pass
         logging.info(f"Created file {file_path}")
