@@ -1,10 +1,8 @@
 artifacts_root: artifacts
 
 data_ingestion:
-  root_data: artifacts/data_ingestion
-  source_url: https://github.com/Rishit-19/Text-Summarizer-Project/blob/9eda010336a6f8363f88e7f6981b43390b81c1a5/summarizer-data.zip
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Rishit-19/Text-Summarizer-Project/blob/23a5748a35824d1afde46cccd92965af28a8bce6/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
-
-
- 
+  
