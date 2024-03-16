@@ -2,7 +2,12 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/Rishit-19/Text-Summarizer-Project/blob/23a5748a35824d1afde46cccd92965af28a8bce6/summarizer-data.zip
+  source_URL: https://github.com/Rishit-19/Datasets/blob/main/summarizer-data.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
   
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train","test","validation"]
